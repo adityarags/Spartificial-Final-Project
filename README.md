@@ -26,11 +26,11 @@ For this project, the **Artificial Lunar Landscape dataset** has been used.
 #### Preliminary Attempt
 No Changes made to any parameters!
 
-**Model History:**
+**Model History:**  
 ![image](https://user-images.githubusercontent.com/59119736/202579375-6731545b-9880-4db2-aaff-e0dd9f6f500d.png)
 
 
-**`val_iou_score` Trend:** 
+**`val_iou_score` Trend:**  
 ![download](https://user-images.githubusercontent.com/59119736/202579311-c0c02667-6ede-4de7-890d-4ed00aa0fd5f.png)
 
 ---
@@ -42,10 +42,10 @@ No Changes made to any parameters!
 1. Image Height = 480
 2. Image Width = 720  
 
-**Model History:**
+**Model History:**  
 ![image](https://user-images.githubusercontent.com/59119736/202576420-0c72cc7a-0b11-4458-a5bd-b1822f8571dc.png)
 
-**`val_iou_score` Trend:** 
+**`val_iou_score` Trend:**  
 ![image](https://user-images.githubusercontent.com/59119736/202577072-140b2bc5-c6a0-4a86-88f3-864042f8cd7f.png)
 
 ---
@@ -56,10 +56,10 @@ No Changes made to any parameters!
 2. Image Height = 480
 3. Image Width = 720  
 
-**Model History:**
+**Model History:**  
 ![image](https://user-images.githubusercontent.com/59119736/202576420-0c72cc7a-0b11-4458-a5bd-b1822f8571dc.png)
 
-**`val_iou_score` Trend:** 
+**`val_iou_score` Trend:**  
 ![image](https://user-images.githubusercontent.com/59119736/202577072-140b2bc5-c6a0-4a86-88f3-864042f8cd7f.png)
 
 ---
