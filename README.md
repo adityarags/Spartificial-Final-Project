@@ -33,6 +33,8 @@ No Changes made to any parameters!
 **`val_iou_score` Trend:** 
 ![download](https://user-images.githubusercontent.com/59119736/202579311-c0c02667-6ede-4de7-890d-4ed00aa0fd5f.png)
 
+---
+
 
 ### Attempt 1
 
@@ -46,6 +48,8 @@ No Changes made to any parameters!
 **`val_iou_score` Trend:** 
 ![image](https://user-images.githubusercontent.com/59119736/202577072-140b2bc5-c6a0-4a86-88f3-864042f8cd7f.png)
 
+---
+### Attempt _
 
 **Parameters Updated:**  
 1. Batch Size = 8
@@ -58,4 +62,4 @@ No Changes made to any parameters!
 **`val_iou_score` Trend:** 
 ![image](https://user-images.githubusercontent.com/59119736/202577072-140b2bc5-c6a0-4a86-88f3-864042f8cd7f.png)
 
-
+---
