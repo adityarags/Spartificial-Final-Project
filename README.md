@@ -16,3 +16,11 @@ The aim of the project is to improve the `val_iou_score` of a given model that p
 # Dataset Used
 For this project, the **Artificial Lunar Landscape dataset** has been used.  
 <a href="https://www.kaggle.com/datasets/romainpessia/artificial-lunar-rocky-landscape-dataset"> Link to the Kaggle Dataset </a>
+
+
+
+
+
+# Attempts
+
+![image](https://user-images.githubusercontent.com/59119736/202576420-0c72cc7a-0b11-4458-a5bd-b1822f8571dc.png)
