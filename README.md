@@ -6,8 +6,9 @@
 #### Work by: Aditya R
 
 
-# Aim of the Project
-The aim of the project is to improve the `val_iou_score` of a given model that performs image segmentation to analyze the surface of the moon
+# Goal of the Project
+The aim of the project is to improve the `val_iou_score` of a given model that performs image segmentation to analyze the surface of the moon.  
+![](https://media.giphy.com/media/l0K4m8FLCB4anX60g/giphy.gif)
 
 # Dataset Used
 For this project, the **Artificial Lunar Landscape dataset** has been used.  
