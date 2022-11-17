@@ -43,7 +43,7 @@ Noticed that the original shape of the image is 480 x 720, but the original note
 2. Image Width = 720  
 
 **Model History:**  
-![image](https://user-images.githubusercontent.com/59119736/202576420-0c72cc7a-0b11-4458-a5bd-b1822f8571dc.png)
+![image](https://user-images.githubusercontent.com/59119736/202582117-7b8d27c7-7180-421f-b5e4-66e204ec2596.png)
 
 **`val_iou_score` Trend:**  
 ![image](https://user-images.githubusercontent.com/59119736/202577072-140b2bc5-c6a0-4a86-88f3-864042f8cd7f.png)
