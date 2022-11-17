@@ -37,7 +37,7 @@ No Changes made to any parameters!
 
 
 ### Attempt 1
-
+Noticed that the original shape of the image is 480 x 720, but the original notebook was resizing the image to 256 x 256. By reducing the size of the image, many features in the image are lost. This is why I changed the height and width of the image to the original image's height and width.  
 **Parameters Updated:**  
 1. Image Height = 480
 2. Image Width = 720  
