@@ -25,5 +25,5 @@ For this project, the **Artificial Lunar Landscape dataset** has been used.
 **Parameters Updated:**  
 1. Batch Size = 8
 2. Image Height = 480
-3. Image Width = 720
+3. Image Width = 720  
 ![image](https://user-images.githubusercontent.com/59119736/202576420-0c72cc7a-0b11-4458-a5bd-b1822f8571dc.png)
