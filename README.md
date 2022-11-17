@@ -23,7 +23,7 @@ For this project, the **Artificial Lunar Landscape dataset** has been used.
 
 # 🤞Attempts
 
-#### Preliminary Attempt
+### Preliminary Attempt
 No Changes made to any parameters!
 
 **Model History:**  
