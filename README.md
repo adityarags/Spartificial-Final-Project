@@ -26,4 +26,9 @@ For this project, the **Artificial Lunar Landscape dataset** has been used.
 1. Batch Size = 8
 2. Image Height = 480
 3. Image Width = 720  
+
+**Model History:**
 ![image](https://user-images.githubusercontent.com/59119736/202576420-0c72cc7a-0b11-4458-a5bd-b1822f8571dc.png)
+
+**`val_iou_score` Trend: 
+![image](https://user-images.githubusercontent.com/59119736/202577072-140b2bc5-c6a0-4a86-88f3-864042f8cd7f.png)
