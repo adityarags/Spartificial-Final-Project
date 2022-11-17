@@ -8,7 +8,7 @@
 
 # Goal of the Project
 <p align="center" >
-  <img src="https://media.giphy.com/media/l41lQbJ0KnSKQfawg/giphy.gif" style="height:100px">
+  <img src="https://media.giphy.com/media/1lFP84yOvlEtLCbFCX/giphy.gif" style="height:100px">
  </p>
 The aim of the project is to improve the `val_iou_score` of a given model that performs image segmentation to analyze the surface of the moon.  
 
