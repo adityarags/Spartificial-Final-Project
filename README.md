@@ -57,10 +57,12 @@ Since the number of epochs is too low, tried increasing the number of epochs to 
 1. Epochs = 10
 
 **Model History:**  
-![image](https://user-images.githubusercontent.com/59119736/202582117-7b8d27c7-7180-421f-b5e4-66e204ec2596.png)
+![image](https://user-images.githubusercontent.com/59119736/202806467-7d26d6b9-99de-44f4-a34c-513b7b438990.png)
+
 
 **`val_iou_score` Trend:**  
-![download](https://user-images.githubusercontent.com/59119736/202582976-a89a60c6-5c1e-4087-9c9a-953ccb265f03.png)
+![download](https://user-images.githubusercontent.com/59119736/202806498-81efd489-dacc-4044-ac82-c9a1af9cde4b.png)
+
 
 
 ---
