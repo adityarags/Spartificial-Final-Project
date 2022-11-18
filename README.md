@@ -49,12 +49,26 @@ Noticed that the original shape of the image is 480 x 720, but the original note
 ![download](https://user-images.githubusercontent.com/59119736/202582976-a89a60c6-5c1e-4087-9c9a-953ccb265f03.png)
 
 ---
-### Attempt _
+
+### Attempt 2
+Since the number of epochs is too low, tried increasing the number of epochs to 10 to check for improvement.
 
 **Parameters Updated:**  
+1. Epochs = 10
+
+**Model History:**  
+![image](https://user-images.githubusercontent.com/59119736/202582117-7b8d27c7-7180-421f-b5e4-66e204ec2596.png)
+
+**`val_iou_score` Trend:**  
+![download](https://user-images.githubusercontent.com/59119736/202582976-a89a60c6-5c1e-4087-9c9a-953ccb265f03.png)
+
+
+---
+### Attempt 3
+Decreasing the batch size to 8 in order to have the model train on more images on each epoch. Increased the number of epochs to 20 to check the effect.
+**Parameters Updated:**  
 1. Batch Size = 8
-2. Image Height = 480
-3. Image Width = 720  
+2. Epochs = 20
 
 **Model History:**  
 ![image](https://user-images.githubusercontent.com/59119736/202576420-0c72cc7a-0b11-4458-a5bd-b1822f8571dc.png)
