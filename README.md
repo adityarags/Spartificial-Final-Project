@@ -73,9 +73,10 @@ Decreasing the batch size to 8 in order to have the model train on more images o
 2. Epochs = 20
 
 **Model History:**  
-![image](https://user-images.githubusercontent.com/59119736/202576420-0c72cc7a-0b11-4458-a5bd-b1822f8571dc.png)
+![image](https://user-images.githubusercontent.com/59119736/202818322-dadd380c-a62d-43ca-80cf-7cd67cea221e.png)
 
 **`val_iou_score` Trend:**  
-![image](https://user-images.githubusercontent.com/59119736/202577072-140b2bc5-c6a0-4a86-88f3-864042f8cd7f.png)
+![download](https://user-images.githubusercontent.com/59119736/202818411-e8eefee8-65fe-44d7-9150-f16a7d118a64.png)
+
 
 ---
