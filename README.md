@@ -81,7 +81,7 @@ Decreasing the batch size to 8 in order to have the model train on more images o
 
 ---
 ### Attempt 4
-Transfer learning using VGG16 model.
+Transfer learning using VGG16 model.  
 **Parameters Updated:**  
 1. Batch Size = 8
 2. Epochs = 20
