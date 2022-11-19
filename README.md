@@ -67,7 +67,7 @@ Since the number of epochs is too low, tried increasing the number of epochs to 
 
 ---
 ### Attempt 3
-Decreasing the batch size to 8 in order to have the model train on more images on each epoch. Increased the number of epochs to 20 to check the effect.
+Decreasing the batch size to 8 in order to have the model train on more images on each epoch. Increased the number of epochs to 20 to check the effect.  
 **Parameters Updated:**  
 1. Batch Size = 8
 2. Epochs = 20
