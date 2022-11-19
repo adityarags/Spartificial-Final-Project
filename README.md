@@ -93,7 +93,18 @@ Transfer learning using VGG16 model.
 ![download](https://user-images.githubusercontent.com/59119736/202832798-193edb5d-8117-48ff-a437-c59067db2a7d.png)
 
 
+---
+### Attempt 5
+Adjusting the learning rate in order to lower the fluctuation in `val_iou_score`.
+**Parameters Updated:**  
+1. Learning Rate = 1e-5
+2. Epochs = 15
 
+**Model History:**  
+![image](https://user-images.githubusercontent.com/59119736/202832763-1716f780-1faa-4fa3-b65c-3b9b4fd3f4ed.png)
+
+**`val_iou_score` Trend:**  
+![download](https://user-images.githubusercontent.com/59119736/202832798-193edb5d-8117-48ff-a437-c59067db2a7d.png)
 
 
 
