@@ -101,6 +101,7 @@ Adjusting the learning rate in order to lower the fluctuation in `val_iou_score`
 2. Epochs = 15
 
 **Model History:**  
+![image](https://user-images.githubusercontent.com/59119736/202862099-e1041219-a2e1-47cf-b622-43d68490fdc8.png)
 
 
 **`val_iou_score` Trend:**  
