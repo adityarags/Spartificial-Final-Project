@@ -95,7 +95,7 @@ Transfer learning using VGG16 model.
 
 ---
 ### Attempt 5
-Adjusting the learning rate in order to lower the fluctuation in `val_iou_score`.
+Adjusting the learning rate in order to lower the fluctuation in `val_iou_score`.  
 **Parameters Updated:**  
 1. Learning Rate = 1e-5
 2. Epochs = 15
