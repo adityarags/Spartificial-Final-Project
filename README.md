@@ -48,6 +48,9 @@ Noticed that the original shape of the image is 480 x 720, but the original note
 **`val_iou_score` Trend:**  
 ![download](https://user-images.githubusercontent.com/59119736/202582976-a89a60c6-5c1e-4087-9c9a-953ccb265f03.png)
 
+**Notes:**
+In only 5 epochs, it seems to have lower score than the original notebook.
+
 ---
 
 ### Attempt 2
@@ -64,6 +67,8 @@ Since the number of epochs is too low, tried increasing the number of epochs to 
 ![download](https://user-images.githubusercontent.com/59119736/202806498-81efd489-dacc-4044-ac82-c9a1af9cde4b.png)
 
 
+**Notes:**
+Attempt 2.
 
 ---
 ### Attempt 3
@@ -78,6 +83,8 @@ Decreasing the batch size to 8 in order to have the model train on more images o
 **`val_iou_score` Trend:**  
 ![download](https://user-images.githubusercontent.com/59119736/202818411-e8eefee8-65fe-44d7-9150-f16a7d118a64.png)
 
+**Notes:**
+Attempt 3.
 
 ---
 ### Attempt 4
@@ -99,7 +106,7 @@ Since the VGG16 model accepts only square images as input, input image shape was
 **`val_iou_score` Trend:**  
 ![download](https://user-images.githubusercontent.com/59119736/202832798-193edb5d-8117-48ff-a437-c59067db2a7d.png)
 
-**Conclusion of the Attempt:**  
+**Notes:**  
 Transfer learning has definitely improved the `val_iou_score` of the model, but the score fluctuates a lot.
 
 ---
@@ -116,6 +123,9 @@ Adjusting the learning rate in order to lower the fluctuation in `val_iou_score`
 **`val_iou_score` Trend:**  
 ![download](https://user-images.githubusercontent.com/59119736/202862053-05dfbd37-c9ac-4a2e-b110-3e4c7ed1bc8e.png)
 
+**Notes:**
+Attempt 5.
+
 ---
 ### Attempt 6
 Adjusting the batch size to 16 to reduce overfitting.  
@@ -130,8 +140,11 @@ Adjusting the batch size to 16 to reduce overfitting.
 **`val_iou_score` Trend:**  
 ![download](https://user-images.githubusercontent.com/59119736/202876519-835792f7-17e3-45de-a7b0-6867690a6b9f.png)
 
+**Notes:**
+Attempt 6. 
+
 ---
-### Attempt 6
+### Attempt 7
 Changing the optimizer to RMSprop.  
 **Parameters Updated:**  
 1. Optimizer = tf.keras.optimizers.RMSprop(lr)
@@ -140,14 +153,14 @@ Changing the optimizer to RMSprop.
 ![image](https://user-images.githubusercontent.com/59119736/202887206-a5e8db1f-271d-41d9-9f22-3bed4cec3aef.png)
 
 
-
-
 **`val_iou_score` Trend:**  
 ![download](https://user-images.githubusercontent.com/59119736/202887207-a79c7831-30b7-4e24-ab69-97511c71916b.png)
 
+**Notes:**
+The model's `val_iou_score` seems to get stable at 0.939 with higher epochs.
 
 ---
-### Attempt 7
+### Attempt 8
 Trying to decrease the number of epochs to check if model stabilizes at 0.939  `val_iou_socre`.  
 **Parameters Updated:**  
 1. Epochs = 10
@@ -158,6 +171,8 @@ Trying to decrease the number of epochs to check if model stabilizes at 0.939  `
 **`val_iou_score` Trend:**  
 ![download](https://user-images.githubusercontent.com/59119736/202913307-dc19fdaa-5a37-4a6b-85d0-c778e6f2bb50.png)
 
+**Notes:**
+The model's `val_iou_score` is stable even in lower epochs.
 
 # Final Conclusion  
 From this experiment we can conclude that by changing the following parameters, we can develop a segmentation model for lunar surface images with a `val_iou_score` of about 0.939:
