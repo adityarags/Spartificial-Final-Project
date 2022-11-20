@@ -137,3 +137,16 @@ Changing the optimizer to RMSprop.
 ![download](https://user-images.githubusercontent.com/59119736/202887207-a79c7831-30b7-4e24-ab69-97511c71916b.png)
 
 
+---
+### Attempt 7
+Trying to decrease the number of epochs to check if model stabilizes at 0.939  `val_iou_socre`.  
+**Parameters Updated:**  
+1. Epochs = 10
+**Model History:**  
+![image](https://user-images.githubusercontent.com/59119736/202913283-c922a092-797b-479a-963b-4cbc1c19fb46.png)
+
+
+**`val_iou_score` Trend:**  
+![download](https://user-images.githubusercontent.com/59119736/202913307-dc19fdaa-5a37-4a6b-85d0-c778e6f2bb50.png)
+
+
