@@ -68,7 +68,7 @@ Since the number of epochs is too low, tried increasing the number of epochs to 
 
 
 **Notes:**
-Attempt 2.
+Increasing the epochs have shown improvements in the model's `val_iou_score`.
 
 ---
 ### Attempt 3
@@ -84,7 +84,7 @@ Decreasing the batch size to 8 in order to have the model train on more images o
 ![download](https://user-images.githubusercontent.com/59119736/202818411-e8eefee8-65fe-44d7-9150-f16a7d118a64.png)
 
 **Notes:**
-Attempt 3.
+Decreasing the batch size does create a noticeable improvement in the model's `val_iou_score`.
 
 ---
 ### Attempt 4
