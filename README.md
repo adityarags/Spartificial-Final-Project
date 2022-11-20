@@ -107,6 +107,17 @@ Adjusting the learning rate in order to lower the fluctuation in `val_iou_score`
 **`val_iou_score` Trend:**  
 ![download](https://user-images.githubusercontent.com/59119736/202862053-05dfbd37-c9ac-4a2e-b110-3e4c7ed1bc8e.png)
 
+---
+### Attempt 5
+Adjusting the batches to 16 to reduce overfitting.  
+**Parameters Updated:**  
+1. Batches = 16
 
+**Model History:**  
+![image](https://user-images.githubusercontent.com/59119736/202862099-e1041219-a2e1-47cf-b622-43d68490fdc8.png)
+
+
+**`val_iou_score` Trend:**  
+![download](https://user-images.githubusercontent.com/59119736/202862053-05dfbd37-c9ac-4a2e-b110-3e4c7ed1bc8e.png)
 
 
