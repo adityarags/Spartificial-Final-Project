@@ -124,7 +124,7 @@ Adjusting the learning rate in order to lower the fluctuation in `val_iou_score`
 ![download](https://user-images.githubusercontent.com/59119736/202862053-05dfbd37-c9ac-4a2e-b110-3e4c7ed1bc8e.png)
 
 **Notes:**
-Attempt 5.
+The model's `val_iou_score` seems to come down quickly after reaching a large value. This could be because we are training the model with too many images in each epoch.
 
 ---
 ### Attempt 6
