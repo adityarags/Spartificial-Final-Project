@@ -82,13 +82,16 @@ Decreasing the batch size to 8 in order to have the model train on more images o
 ---
 ### Attempt 4
 Transfer learning using VGG16 model: Since the traditional method of manually creating tensorflow layers and building a UNet seems to result in lower val_iou_scores, we can try incorporate Trasfer learning using the VGG16 pretrained model.  
+Since the VGG16 model accepts only square images as input, input image shape was changed to (480, 480, 3).  
 **Parameters Updated:**  
 1. Batch Size = 8
 2. Epochs = 20
-3. Activation: 'softmax'
-4. Loss:'categorical_crossentropy'
-5. Optimizer: Adam
-6. encoder_weights: imagenet
+3. Image Height = 480
+4. Image Width = 480
+5. Activation: 'softmax'
+6. Loss:'categorical_crossentropy'
+7. Optimizer: Adam
+8. encoder_weights: imagenet
 
 **Model History:**  
 ![image](https://user-images.githubusercontent.com/59119736/202832763-1716f780-1faa-4fa3-b65c-3b9b4fd3f4ed.png)
