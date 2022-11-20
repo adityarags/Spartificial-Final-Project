@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://discordhome.com/user_upload/backgrounds/7864background.jpg" style="height:200px">
+<img src="https://discordhome.com/user_upload/backgrounds/7864background.jpg" style="width:100%">
 </p>
 
 # Final Project
