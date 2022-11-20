@@ -121,4 +121,17 @@ Adjusting the batches to 16 to reduce overfitting.
 **`val_iou_score` Trend:**  
 ![download](https://user-images.githubusercontent.com/59119736/202876519-835792f7-17e3-45de-a7b0-6867690a6b9f.png)
 
+---
+### Attempt 6
+Changing the optimizer to RMSprop.  
+**Parameters Updated:**  
+1. Optimizer = tf.keras.optimizers.RMSprop(lr)
+
+**Model History:**  
+![image](https://user-images.githubusercontent.com/59119736/202876509-1d945b85-d126-4d2f-bc31-32dcbafca36a.png)
+
+
+
+**`val_iou_score` Trend:**  
+![download](https://user-images.githubusercontent.com/59119736/202876519-835792f7-17e3-45de-a7b0-6867690a6b9f.png)
 
