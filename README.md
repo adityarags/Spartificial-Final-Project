@@ -81,10 +81,14 @@ Decreasing the batch size to 8 in order to have the model train on more images o
 
 ---
 ### Attempt 4
-Transfer learning using VGG16 model.  
+Transfer learning using VGG16 model: Since the traditional method of manually creating tensorflow layers and building a UNet seems to result in lower val_iou_scores, we can try incorporate Trasfer learning using the VGG16 pretrained model.  
 **Parameters Updated:**  
 1. Batch Size = 8
 2. Epochs = 20
+3. Activation: 'softmax'
+4. Loss:'categorical_crossentropy'
+5. Optimizer: Adam
+6. encoder_weights: imagenet
 
 **Model History:**  
 ![image](https://user-images.githubusercontent.com/59119736/202832763-1716f780-1faa-4fa3-b65c-3b9b4fd3f4ed.png)
@@ -92,6 +96,8 @@ Transfer learning using VGG16 model.
 **`val_iou_score` Trend:**  
 ![download](https://user-images.githubusercontent.com/59119736/202832798-193edb5d-8117-48ff-a437-c59067db2a7d.png)
 
+**Conclusion of the Attempt:**  
+Transfer learning has definitely improved the `val_iou_score` of the model, but the score fluctuates a lot.
 
 ---
 ### Attempt 5
@@ -109,7 +115,7 @@ Adjusting the learning rate in order to lower the fluctuation in `val_iou_score`
 
 ---
 ### Attempt 6
-Adjusting the batches to 16 to reduce overfitting.  
+Adjusting the batch size to 16 to reduce overfitting.  
 **Parameters Updated:**  
 1. Batches = 16
 
@@ -150,3 +156,15 @@ Trying to decrease the number of epochs to check if model stabilizes at 0.939  `
 ![download](https://user-images.githubusercontent.com/59119736/202913307-dc19fdaa-5a37-4a6b-85d0-c778e6f2bb50.png)
 
 
+# Final Conclusion  
+From this experiment we can conclude that by changing the following parameters, we can develop a segmentation model for lunar surface images with a `val_iou_score` of about 0.939:
+1. Image Height: 480
+2. Image Width: 480
+3. Epochs: 10 / 15 / 20
+4. Batch Size: 16
+5. Learning Rate: 5e-5
+6. Incorporating Trasfer learning with VGG16 Pretrained model.
+7. Activation: 'softmax'
+8. Loss:'categorical_crossentropy'
+9. Optimizer: Root Mean Squared Propogation
+10. encoder_weights: imagenet
