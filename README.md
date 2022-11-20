@@ -114,10 +114,11 @@ Adjusting the batches to 16 to reduce overfitting.
 1. Batches = 16
 
 **Model History:**  
-![image](https://user-images.githubusercontent.com/59119736/202862099-e1041219-a2e1-47cf-b622-43d68490fdc8.png)
+![image](https://user-images.githubusercontent.com/59119736/202876509-1d945b85-d126-4d2f-bc31-32dcbafca36a.png)
+
 
 
 **`val_iou_score` Trend:**  
-![download](https://user-images.githubusercontent.com/59119736/202862053-05dfbd37-c9ac-4a2e-b110-3e4c7ed1bc8e.png)
+![download](https://user-images.githubusercontent.com/59119736/202876519-835792f7-17e3-45de-a7b0-6867690a6b9f.png)
 
 
