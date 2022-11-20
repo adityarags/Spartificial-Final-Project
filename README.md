@@ -128,10 +128,12 @@ Changing the optimizer to RMSprop.
 1. Optimizer = tf.keras.optimizers.RMSprop(lr)
 
 **Model History:**  
-![image](https://user-images.githubusercontent.com/59119736/202876509-1d945b85-d126-4d2f-bc31-32dcbafca36a.png)
+![image](https://user-images.githubusercontent.com/59119736/202887206-a5e8db1f-271d-41d9-9f22-3bed4cec3aef.png)
+
 
 
 
 **`val_iou_score` Trend:**  
-![download](https://user-images.githubusercontent.com/59119736/202876519-835792f7-17e3-45de-a7b0-6867690a6b9f.png)
+![download](https://user-images.githubusercontent.com/59119736/202887207-a79c7831-30b7-4e24-ab69-97511c71916b.png)
+
 
