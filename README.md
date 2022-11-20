@@ -141,11 +141,11 @@ Adjusting the batch size to 16 to reduce overfitting.
 ![download](https://user-images.githubusercontent.com/59119736/202876519-835792f7-17e3-45de-a7b0-6867690a6b9f.png)
 
 **Notes:**
-Attempt 6. 
+Overfitting seems to have been reduced, but the `val_iou_score` of the model fluctuates a lot. This may be because the optimizer is not controlled by proper parameters. 
 
 ---
 ### Attempt 7
-Changing the optimizer to RMSprop.  
+Changing the optimizer to RMSprop to try to control the fluctuations in the model's `val_iou_score`. 
 **Parameters Updated:**  
 1. Optimizer = tf.keras.optimizers.RMSprop(lr)
 
